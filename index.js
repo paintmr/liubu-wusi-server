@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const path = require('path');
+// 用於獲取src的各種json文件
 const loadData = require('./src/utils/loadData')
 
 // 處理跨域問題
