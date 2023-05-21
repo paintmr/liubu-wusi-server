@@ -1,84 +1,84 @@
 [
   {
     "id": "l4-1",
-    "image": "https://liubu-wusi-server.onrender.com/l4b.png",
+    "image": "l4b.png",
     "dpt": "吏部",
     "position": "吏部左侍郎",
     "name": "趙士元"
   },
   {
     "id": "l3-1",
-    "image": "https://liubu-wusi-server.onrender.com/l3b.png",
+    "image": "l3b.png",
     "dpt": "禮部",
     "position": "禮部左侍郎",
     "name": "李廷儀"
   },
   {
     "id": "b-1",
-    "image": "https://liubu-wusi-server.onrender.com/bb.png",
+    "image": "bb.png",
     "dpt": "兵部",
     "position": "兵部郎中",
     "name": "張安甫"
   },
   {
     "id": "x-1",
-    "image": "https://liubu-wusi-server.onrender.com/xb.png",
+    "image": "xb.png",
     "dpt": "刑部",
     "position": "刑部右侍郎",
     "name": "王憲"
   },
   {
     "id": "h-1",
-    "image": "https://liubu-wusi-server.onrender.com/hb.png",
+    "image": "hb.png",
     "dpt": "戶部",
     "position": "戶部右侍郎",
     "name": "鐘永"
   },
   {
     "id": "g-1",
-    "image": "https://liubu-wusi-server.onrender.com/gb.png",
+    "image": "gb.png",
     "dpt": "工部",
     "position": "工部左侍郎",
     "name": "周珮"
   },
   {
     "id": "dcy-1",
-    "image": "https://liubu-wusi-server.onrender.com/dcy.png",
+    "image": "dcy.png",
     "dpt": "都察院",
     "position": "左副都御史",
     "name": "查煥"
   },
   {
     "id": "dls-1",
-    "image": "https://liubu-wusi-server.onrender.com/dls.png",
+    "image": "dls.png",
     "dpt": "大理寺",
     "position": "大理寺左少卿",
     "name": "黎弘昌"
   },
   {
     "id": "tcs-1",
-    "image": "https://liubu-wusi-server.onrender.com/tcs.png",
+    "image": "tcs.png",
     "dpt": "太常寺",
     "position": "太常寺少卿",
     "name": "李宗商"
   },
   {
     "id": "hls-1",
-    "image": "https://liubu-wusi-server.onrender.com/hls.png",
+    "image": "hls.png",
     "dpt": "鴻臚寺",
     "position": "鴻臚寺右少卿",
     "name": "祝祥"
   },
   {
     "id": "gls-1",
-    "image": "https://liubu-wusi-server.onrender.com/gls.png",
+    "image": "gls.png",
     "dpt": "光祿寺",
     "position": "光祿寺少卿",
     "name": "周統"
   },
   {
     "id": "tps-1",
-    "image": "https://liubu-wusi-server.onrender.com/tps.png",
+    "image": "tps.png",
     "dpt": "太僕寺",
     "position": "太僕寺少卿",
     "name": "程邑"

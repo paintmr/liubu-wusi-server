@@ -1,31 +1,19 @@
-const fs = require('fs')
 const express = require('express')
 const app = express()
 const cors = require('cors')
 const path = require('path');
+const loadData = require('./src/utils/loadData')
 
+// 處理跨域問題
 app.use(cors())
 
 // 设置静态文件夹路径
 const staticFolderPath = path.join(__dirname, 'src/public/img');
 app.use(express.static(staticFolderPath))
-console.log(staticFolderPath)
 
-const getOfficialList = () => {
-  try {
-    const dataBuffer = fs.readFileSync('src/public/data/official-list.json')
-    const dataString = dataBuffer.toString()
-    const data = JSON.parse(dataString)
-    // console.log(data)
-    return data
-  } catch (error) {
-    // console.log(chalk.red.inverse(error))
-    return []
-  }
-}
-const officialList = getOfficialList()
+const officialList = loadData.getOfficialList()
 
-app.get('/', (req, res) => {
+app.get('/officialList', (req, res) => {
   res.send(officialList)
 })
 
